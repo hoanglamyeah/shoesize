@@ -1,0 +1,77 @@
+footer {
+}
+
+.topNav {
+    border-top: 5px solid #3498DB;
+}
+
+.topNav .container .wrap {
+    border-bottom: 1px solid #E6EAEE;
+}
+
+.container .columns {
+    margin-top: 0;
+}
+
+aside.menu .menu-list {
+    line-height: 1.5;
+}
+
+aside.menu .menu-label {
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+    margin-left: 0;
+}
+
+.margin-b-15 {
+    margin-bottom: 1.5rem;
+}
+
+.media-left img {
+    border-radius: 50%;
+}
+
+.media-content p {
+    font-size: 14px;
+    line-height: 2.3;
+    font-weight: 700;
+    color: #8F99A3;
+}
+
+article.post {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E6EAEE;
+}
+
+article.post:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.menu-list li {
+    padding: 5px;
+}
+
+.box {
+    border-radius: 3px;
+}
+
+.main-container {
+    padding-top: 1.5rem;
+}
+
+.upload .upload-draggable {
+    width: 100%;
+}
+
+main {
+    margin-bottom: 3rem;
+}
+
+.button, .input, .taginput .taginput-container.is-focusable, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
+    border-radius: 0;
+}

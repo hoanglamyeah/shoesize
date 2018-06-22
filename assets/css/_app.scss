@@ -1,0 +1,71 @@
+.footer {
+    padding: 3rem 1.5rem 3rem;
+}
+
+.container {
+    max-width: 760px;
+    padding: 0 15px;
+}
+
+.columns:last-child {
+    margin-bottom: 0.75rem;
+}
+
+.site-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tab-content {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #ceff99;
+}
+
+.tabs.is-boxed li.is-active a {
+    background-color: #ceff99;
+}
+
+.tabs {
+
+}
+
+.hero .tabs ul {
+    border-bottom-color: #dbdbdb;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.brand {
+    padding: 10px;
+    background: #EEE;
+    border-radius: 2px;
+}
+
+.mgb {
+    margin-bottom: 1rem;
+}
+
+.mgb-1 {
+    margin-bottom: 1rem;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.highlight {
+    background: #ceff99;
+    font-weight: bold;
+}
+
+.tag.title {
+    font-size: 1rem;
+}
+
+.column.is-2 {
+    .button {
+        width: 100%;
+    }
+}
