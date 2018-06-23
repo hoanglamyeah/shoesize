@@ -66,7 +66,8 @@ module.exports = {
     ],
     plugins: [
         {src: '~plugins/component.js', ssr: true},
-        {src: '~plugins/component_font.js', ssr: false}
+        {src: '~plugins/component_font.js', ssr: false},
+        {src: '~plugins/ga.js', ssr: false}
     ],
     css: [
         'buefy/lib/buefy.css',
