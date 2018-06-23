@@ -140,7 +140,7 @@
             return {
                 title: 'Your Shoe Size',
                 meta: [
-                    {hid: 'description', name: 'description', content: 'My custom description'}
+                    {hid: 'description', name: 'description', content: 'Your Shoe Size help you to find automatic the right shoe size by using machine learning and big data. Just need your foot size!'}
                 ]
             }
         },

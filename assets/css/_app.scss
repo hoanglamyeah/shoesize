@@ -51,10 +51,6 @@
     margin-bottom: 1rem;
 }
 
-.title {
-    text-transform: uppercase;
-}
-
 .highlight {
     background: #ceff99;
     font-weight: bold;
@@ -68,4 +64,20 @@
     .button {
         width: 100%;
     }
+}
+
+.navbar.is-white {
+    font-weight: bold;
+    .nuxt-link-active {
+        span {
+            color: blueviolet;
+        }
+    }
+}
+
+.button.is-success {
+    background-color: #009688;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 3px;
 }

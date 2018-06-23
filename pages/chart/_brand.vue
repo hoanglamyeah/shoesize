@@ -2,6 +2,7 @@
     <section class="columns">
         <div class="column">
             <h1 class="title is-3">{{title}}</h1>
+            <p class="mgb">{{brand.des}} Here are {{brand.name}} shoe size chart: </p>
             <div class="mgb" v-for="(entity,j) in chart" :key="j">
                 <h2 class="title is-4">{{entity.name}}'s {{brand.name}} shoe size chart</h2>
                 <table v-if="entity.data.length > 0"
@@ -49,7 +50,7 @@
             return {
                 title: this.title,
                 meta: [
-                    {hid: 'description', name: 'description', content: 'My custom description'}
+                    {hid: 'description', name: 'description', content: this.brand.des + 'Here are '+this.brand.name+' shoe size chart'}
                 ]
             }
         },

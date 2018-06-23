@@ -2,7 +2,7 @@ export default {
     sizes: {
         us: {
             "title": "US",
-            "description": "The following brands are America and therefore use US-shoe size as a standard: Alden, Allen Edmonds, Aurora Shoe Co, Bates Footwear, Beck, Belleville Boot, Cade & Co, Calleen Cordero, Carolina, Capps Shoe Company, Chacos, Chippewa Boots, Cobra Rock, CYDWOQ, Danner, Double H Boots, Eastland, Eliza B, Esquivel, Footwear by Footskins, Frye, G.H. Bass, Gurkee’s, Helm, Hersey Custom Shoe Company, Hoffman Boot, Island Slipper, Jack Rogers Navajo Sandals, Jen + Kim, Julie Bees, Justin Boots, Kamik, Keen, Kepner Scott, L.L. Bean, Lucchese, Manimal, Mara and Mine, mohop, Munro, myAnatech, Neil M Footwear, New Balance, Newbark, Nicks Handmade Boots, Oakstreet Bootmakers, Oka b, Okabashi, Onex, Perry Ercolino, Pierrepont Hicks, Piper Sandals, PW Minor, Quoddy, Rancourt & Co, Red Wing, Russell Moccasin Co, Salpy Shoes, San Antonio Shoes (SAS), Scandic Footwear, Sbicca, Sloggers, Soft Star, SOM Footwear, Steger Mukluks and Moccasins, Sven, The Palatines, Thorogood, Tony Lama, Truman Boot Co, Walk-Over, Wesco, White’s Boots, Wolverine",
+            "description": "The following brands are America and therefore use US-shoe size as a standard: Alden, Allen Edmonds, Aurora Shoe Co, Bates Footwear, Beck, Belleville Boot, Cade & Co, Calleen Cordero, Carolina, Capps Shoe Company, Chacos, Chippewa Boots, Cobra Rock, CYDWOQ, Danner, Double H Boots, Eastland, Eliza B, Esquivel, Footwear by Footskins, Frye, G.H. Bass, Gurkee’s, Helm, Hersey Custom Shoe Company, Hoffman Boot, Island Slipper, Jack Rogers Navajo Sandals, Jen + Kim...",
             "id": "us",
             "data": [0, 13.5, 0.5]
         },

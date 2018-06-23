@@ -2,7 +2,10 @@
     <section class="columns is-multiline">
         <div class="column is-full">
             <h1 class="title is-3">{{title}}</h1>
-            <p>
+            <p class="mgb">
+                {{location.title}} shoe size is used by many {{location.title}} companies. Here is a list of companies and their shoes that use {{location.title}}'s shoe size. Get to know the shoe sizes of {{location.title}} with yourshoesize.com
+            </p>
+            <p class="mgb">
                 {{location.description}}
             </p>
         </div>
@@ -27,7 +30,7 @@
             return {
                 title: this.title,
                 meta: [
-                    {hid: 'description', name: 'description', content: 'My custom description'}
+                    {hid: 'description', name: 'description', content: this.location.title + ' shoe size is used by many '+this.location.title+' companies. Here is a list of companies and their shoes that use '+this.location.title+'\'s shoe size. Get to know the shoe sizes of '+this.location.title+' with yourshoesize.com'}
                 ]
             }
         },

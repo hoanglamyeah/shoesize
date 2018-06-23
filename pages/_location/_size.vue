@@ -2,6 +2,9 @@
     <section class="columns is-multiline">
         <div class="column is-full">
             <h1 class="title is-3">{{title}}</h1>
+            <p>
+                Here are all about size {{size}} shoe in {{location.title}} shoe size and list shoes in size {{size}} update regularly
+            </p>
         </div>
         <div class="column is-full">
             <p class="mgb-1">You can convert size {{size}} from {{location.title}} size to other size, follow table
@@ -57,7 +60,7 @@
             return {
                 title: this.title,
                 meta: [
-                    {hid: 'description', name: 'description', content: 'My custom description'}
+                    {hid: 'description', name: 'description', content: 'Here are all about size '+this.size+' shoe in '+this.location.title+' shoe size and list shoes in size '+this.size+' update regularly'}
                 ]
             }
         },
@@ -72,7 +75,7 @@
 
         computed: {
             title() {
-                return "Size " + this.size + " Shoe - " + this.location.title
+                return "Size " + this.size + " Shoes - " + this.location.title
             },
 
             breadcrumbs() {

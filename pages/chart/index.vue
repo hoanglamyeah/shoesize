@@ -2,6 +2,8 @@
     <section class="columns is-multiline">
         <div class="column is-full">
             <h1 class="title is-3">{{title}}</h1>
+            <p class="mgb">Here are shoe size chart that help determine your size. Each shoe brand has a different shoe
+                size chart. We provide all here.</p>
             <div class="columns is-multiline">
                 <div class="column is-3" v-for="brand in brands" :key="brand.id">
                     <div class="media brand">
@@ -67,7 +69,11 @@
             return {
                 title: this.title,
                 meta: [
-                    {hid: 'description', name: 'description', content: 'My custom description'}
+                    {
+                        hid: 'description',
+                        name: 'description',
+                        content: 'Here are shoe size chart that help determine your size. Each shoe brand has a different shoe size chart. We provide all here.'
+                    }
                 ]
             }
         },
@@ -78,7 +84,7 @@
         },
         computed: {
             title() {
-                return "Shoe Size Conversation Chart"
+                return "Shoe Size Conversion Chart"
             },
 
             breadcrumbs() {

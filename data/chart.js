@@ -3,6 +3,7 @@ export default {
         general: {
             name: "General",
             id: "general",
+            des: "",
             image: "",
             chart: {
                 men: {
@@ -305,6 +306,7 @@ export default {
         nike: {
             name: "Nike",
             id: "nike",
+            des: "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services.",
             image: "",
             chart: {
                 men: {
@@ -607,6 +609,7 @@ export default {
         adidas: {
             name: "Adidas",
             id: "adidas",
+            des: "Adidas AG is a multinational corporation, founded and headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories.",
             image: "",
             chart: {
                 men: {
@@ -905,6 +908,7 @@ export default {
             name: "Puma",
             id: "puma",
             image: "",
+            des: "Puma SE, branded as Puma, is a German multinational company that designs and manufactures athletic and casual footwear, apparel and accessories, which is headquartered in Herzogenaurach, Bavaria, Germany.",
             chart: {
                 men: {
                     name: 'Men',
@@ -1420,6 +1424,7 @@ export default {
             name: "Converse",
             id: "converse",
             image: "",
+            des: "Converse is an American shoe company that primarily produces skating shoes and lifestyle brand footwear and apparel. Founded in 1908, it has been a subsidiary of Nike, Inc. since 2003.",
             chart: {
                 men: {
                     name: 'Men',
@@ -1632,6 +1637,7 @@ export default {
         fila: {
             name: "Fila",
             id: "fila",
+            des: "Fila, Inc. is a South Korean sporting goods company with its origins in Italy. Fila was founded in 1911 in Italy. Since a takeover in 2007 by Fila Korea, Fila is now owned and operated from South Korea.",
             image: "",
             chart: {
                 men: {
@@ -2257,6 +2263,7 @@ export default {
         reebok: {
             name: "Reebok",
             id: "reebok",
+            des: "Reebok is a global athletic footwear and apparel company, operating as a subsidiary of German sportsgiant Adidas since 2005. Reebok produces and distributes fitness, running and CrossFit sportswear including clothing and footwear.",
             image: "",
             chart: {
                 men: {
@@ -2560,6 +2567,7 @@ export default {
             name: "Reef",
             id: "reef",
             image: "",
+            des: "Reef is a brand of casual sandals, known as Thongs, created by two Argentine brothers, Fernando and Santiago Aguerre. In 1984 they moved from Argentina to the San Diego beach community of La Jolla, California, where they began Reef.",
             chart: {
                 men: {
                     name: 'Men',
@@ -2579,6 +2587,7 @@ export default {
             name: "Clarks",
             id: "clarks",
             image: "",
+            des: "C. & J. Clark International Ltd, trading as Clarks, is a British-based, international shoe manufacturer and retailer. It was founded in 1825 by brothers Cyrus and James Clark in Street, Somerset, England – where it still has its headquarters.",
             chart: {
                 men: {
                     name: 'Men',
@@ -2597,6 +2606,7 @@ export default {
         vans: {
             name: "Vans",
             id: "vans",
+            des: "Vans is an American manufacturer of skateboarding shoes and related apparel, based in Costa Mesa, California, owned by VF Corporation. The company also sponsors surf, snowboarding, BMX, and motocross teams.",
             image: "",
             chart: {
                 men: {
@@ -2615,6 +2625,7 @@ export default {
         },
         palladium: {
             name: "Palladium",
+            des: "",
             id: "palladium",
             image: "",
             chart: {

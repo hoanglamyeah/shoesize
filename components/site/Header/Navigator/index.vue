@@ -3,7 +3,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <nuxt-link class="navbar-item" to="/">
-                    <img src="../../../../assets/img/logo.png" height="50px">
+                    <img src="../../../../assets/img/logo@2.png" height="50px">
                 </nuxt-link>
                 <div class="navbar-burger burger" data-target="topNav">
                     <span></span>
@@ -16,7 +16,7 @@
                     <nuxt-link class="navbar-item" to="/chart">
                         <b-icon pack="fa" icon="table" size="is-small"></b-icon>
                         <span>Chart</span></nuxt-link>
-                    <nuxt-link class="navbar-item" to="/eu">EU</nuxt-link>
+                    <nuxt-link class="navbar-item" to="/eu"><span>EU</span></nuxt-link>
                     <nuxt-link class="navbar-item" to="/uk"><span class="flag-icon flag-icon-gb"></span>
                         <span>UK</span>
                     </nuxt-link>
