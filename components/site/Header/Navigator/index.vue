@@ -5,18 +5,22 @@
                 <nuxt-link class="navbar-item" to="/">
                     <img src="../../../../assets/img/logo@2.png" height="50px">
                 </nuxt-link>
-                <div class="navbar-burger burger" data-target="topNav">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <a role="button" class="burger navbar-burger" aria-label="menu" aria-expanded="false"
+                   data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div id="topNav" class="navbar-menu">
+            <div class="navbar-menu" id="navMenu">
                 <div class="navbar-start">
                     <nuxt-link class="navbar-item" to="/chart">
                         <b-icon pack="fa" icon="table" size="is-small"></b-icon>
                         <span>Chart</span></nuxt-link>
-                    <nuxt-link class="navbar-item" to="/eu"><span>EU</span></nuxt-link>
+                    <nuxt-link class="navbar-item" to="/eu">
+                        <b-icon pack="fa" icon="table" size="is-small"></b-icon>
+                        <span>EU</span>
+                    </nuxt-link>
                     <nuxt-link class="navbar-item" to="/uk"><span class="flag-icon flag-icon-gb"></span>
                         <span>UK</span>
                     </nuxt-link>
@@ -48,6 +52,14 @@
         width: 1em;
         margin-right: 10px;
     }
+
+    .navbar-item {
+        .icon.is-small {
+            height: 1rem;
+            width: 1.6rem;
+        }
+    }
+
 
     .fa {
         margin-right: 10px;
