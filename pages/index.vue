@@ -1,13 +1,12 @@
 <template>
     <div class="hero">
         <div class="hero-body">
-            <h1 class="title is-3 site-title">Shoe Size Finder</h1>
+            <h1 class="title is-3 site-title"><i class="fa fa-search"></i> Shoe Size Finder</h1>
             <div class="columns">
-                <div class="column"></div>
-                <div class="column is-8">
+                <div class="column">
                     <div class="field has-addons">
                         <p class="control">
-                            <span class="select">
+                            <span class="select is-large">
                             <select v-model="type">
                                 <option value="cm">CM</option>
                                 <option value="in">IN</option>
@@ -15,16 +14,13 @@
                             </span>
                         </p>
                         <p class="control is-expanded">
-                            <input class="input" type="number" placeholder="0,00" v-model="input">
+                            <input class="input is-large" type="number" placeholder="0,00" v-model="input" @keyup.enter.native="getResult">
                         </p>
                         <p class="control">
-                            <a class="button">
-                                Find Size
-                            </a>
+                            <button class="button is-large is-primary" @click="getResult">Find Size</button>
                         </p>
                     </div>
                 </div>
-                <div class="column"></div>
             </div>
             <div class="columns is-multiline">
                 <div class="column is-full">
@@ -132,7 +128,8 @@
                 input: 23,
                 type: 'cm',
                 location: location,
-                chart: chart
+                chart: chart,
+                temp_input: 23
             }
         },
 
@@ -140,7 +137,11 @@
             return {
                 title: 'Your Shoe Size',
                 meta: [
-                    {hid: 'description', name: 'description', content: 'Your Shoe Size help you to find automatic the right shoe size by using machine learning and big data. Just need your foot size!'}
+                    {
+                        hid: 'description',
+                        name: 'description',
+                        content: 'Your Shoe Size help you to find automatic the right shoe size by using machine learning and big data. Just need your foot size!'
+                    }
                 ]
             }
         },
@@ -152,9 +153,9 @@
 
             centimetre() {
                 if (this.type === 'cm') {
-                    return this.input
+                    return this.temp_input
                 } else {
-                    return this.input * 2.54
+                    return this.temp_input * 2.54
                 }
             }
         },
@@ -165,7 +166,7 @@
 
         methods: {
             getResult() {
-
+                this.temp_input = this.input
             },
 
             filterRow(chart) {

@@ -31,11 +31,6 @@
                         <span>JP</span>
                     </nuxt-link>
                 </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <input class="input" type="search" placeholder="Search forum...">
-                    </div>
-                </div>
             </div>
         </div>
     </nav>

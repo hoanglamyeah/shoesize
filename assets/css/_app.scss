@@ -80,3 +80,22 @@
     border-color: #009688;
     color: #47494e;
 }
+
+.navbar-brand {
+    .navbar-item {
+        margin-right: 1rem;
+        padding: 0;
+        img {
+            max-height: 2rem;
+        }
+    }
+}
+
+.hero-body {
+    padding: 1rem 0;
+}
+
+.site-title {
+    font-weight: bold;
+    color: brown;
+}
