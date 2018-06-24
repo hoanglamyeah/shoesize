@@ -61,8 +61,8 @@ module.exports = {
         }
     },
     modules: [
-        // Simple usage
-        'nuxt-buefy'
+        'nuxt-buefy',
+        'nuxt-robots-module'
     ],
     plugins: [
         {src: '~plugins/component.js', ssr: true},
