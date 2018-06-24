@@ -48,7 +48,7 @@
                             <nuxt-link :to="'/eu/' + row.eu">{{row.eu}}</nuxt-link>
                         </td>
                         <td>
-                            <nuxt-link :to="'/jp/' + row.jp">{{row.jp}}</nuxt-link>
+                            <nuxt-link :to="'/jp/' + row.jp / 10">{{row.jp /10}}</nuxt-link>
                         </td>
                         <td>{{toInch(row.cm[0])}}</td>
                         <td>{{row.cm[0]}} - {{row.cm[1]}}</td>

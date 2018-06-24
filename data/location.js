@@ -22,7 +22,7 @@ export default {
             "title": "JP",
             "description": "The following brands are Japan and therefore use JP-shoe size as a standard: LOSERS, Shoes Like Pottery, Mizuno, Hender Scheme",
             "id": "jp",
-            "data": [220, 325, 5]
+            "data": [20, 32, 0.5]
         }
     }
 }

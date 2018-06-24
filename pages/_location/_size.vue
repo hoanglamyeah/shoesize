@@ -3,7 +3,8 @@
         <div class="column is-full">
             <h1 class="title is-3">{{title}}</h1>
             <p>
-                Here are all about size {{size}} shoe in {{location.title}} shoe size and list shoes in size {{size}} update regularly
+                Here are all about size {{size}} shoe in {{location.title}} shoe size and list shoes in size {{size}}
+                update regularly
             </p>
         </div>
         <div class="column is-full">
@@ -34,7 +35,7 @@
                             <nuxt-link :to="'/eu/' + row.records.eu">{{row.records.eu}}</nuxt-link>
                         </td>
                         <td v-bind:class="{'highlight': highlight('jp')}">
-                            <nuxt-link :to="'/jp/' + row.records.jp">{{row.records.jp}}</nuxt-link>
+                            <nuxt-link :to="'/jp/' + row.records.jp / 10">{{row.records.jp / 10}}</nuxt-link>
                         </td>
                         <td>{{toInch(row.records.cm[0])}}</td>
                         <td>
@@ -60,7 +61,11 @@
             return {
                 title: this.title,
                 meta: [
-                    {hid: 'description', name: 'description', content: 'Here are all about size '+this.size+' shoe in '+this.location.title+' shoe size and list shoes in size '+this.size+' update regularly'}
+                    {
+                        hid: 'description',
+                        name: 'description',
+                        content: 'Here are all about size ' + this.size + ' shoe in ' + this.location.title + ' shoe size and list shoes in size ' + this.size + ' update regularly'
+                    }
                 ]
             }
         },
@@ -105,6 +110,16 @@
                 var arr = []
                 for (var row in chart) {
                     for (var record in chart[row].data) {
+                        if (this.location.id === 'jp') {
+                            if (chart[row].data[record][this.location.id] === Number.parseFloat(this.size) * 10) {
+                                arr.push(
+                                    {
+                                        who: chart[row].name,
+                                        records: chart[row].data[record]
+                                    }
+                                )
+                            }
+                        }
                         if (chart[row].data[record][this.location.id] === Number.parseFloat(this.size)) {
                             arr.push(
                                 {
